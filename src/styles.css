@@ -1,0 +1,23 @@
+:root{
+    --dark1: #352f44;
+    --dark2: #2a2438;
+    --purple1: #411e8f;
+    --purple2: #310a5d;
+}
+
+body{
+    background-color: var(--dark2);
+}
+
+#header{
+    background-color: var(--dark1);
+}
+
+main #Home{
+    background-image: url(./assets/banner.jpg);
+    backdrop-filter: grayscale(30%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+}
