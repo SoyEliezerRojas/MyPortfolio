@@ -12,11 +12,13 @@
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class="fixed-top">
         <div class="container-md container-fluid">
             <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><h1>Eliezer Rojas</h1></a>
+                    <a class="navbar-brand" href="#">
+                        <h1>Eliezer Rojas</h1>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -25,19 +27,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item mx-md-2">
-                                <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item mx-md-2">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#SobreMi">Sobre mi</a>
                             </li>
                             <li class="nav-item mx-md-2">
-                                <a href="#" class="nav-link">Services</a>
+                                <a href="#" class="nav-link">Servicios</a>
                             </li>
                             <li class="nav-item mx-md-2">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="#">Portafolio</a>
                             </li>
                             <li class="nav-item mx-md-2">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +49,34 @@
 
     </header>
     <main>
-        <section id="Home">
+        <section id="home">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 offset-md-3 text-center home_perfil_description">
+                        <h2>Hola! Soy <span>Eliezer Rojas</span></h2>
+                        <h4 class="h1">- Frontend Developer -</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="SobreMi">
+            <div class="container text-center">
+                <div class="mt-5 mb-5 section-title">
+                    <h4 class="h1 ">Sobre mí</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./assets/yo2.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mt-4 text-start MyDescription">
+                        Desarrollador Frontend. <br>
+                        He estado construyendo sitios web destacados durante el último año, que cumplen con las últimas tendencias de desarrollo y diseño. <br> 
+                        Continuamente aprendiendo y adquiriendo nuevas habilidades según las actuales  tendencias tecnológicas. Apasionado con el trabajo que realizo, ofreciendo en cada proyecto total dedicación, personalización y calidad.
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

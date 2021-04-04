@@ -1,23 +1,48 @@
 :root{
-    --dark1: #352f44;
-    --dark2: #2a2438;
-    --purple1: #411e8f;
-    --purple2: #310a5d;
+    --neon: #92FF47;
 }
 
 body{
-    background-color: var(--dark2);
+    background-color: black;
+    color: white;
+}
+
+.section-title{
+    border-bottom: 4px solid var(--neon);
+    padding: 0px 20px;
+    width: auto;
 }
 
 #header{
-    background-color: var(--dark1);
+    background-color: black;
+}
+#home{
+    background-image: url(./assets/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+#home h2{
+    font-weight: lighter;
+    text-shadow: 0px 0px 3px #ccc;
+    font-size: 90px;
+}
+#home h4{
+    color: var(--neon);
+}
+#home img{
+    width: 60%;
+    border-radius: 50%;
+}
+.home_perfil_description{
+    margin-top: 20vh;
 }
 
-main #Home{
-    background-image: url(./assets/banner.jpg);
-    backdrop-filter: grayscale(30%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 65vh;
+#SobreMi img{
+    width: 50%;
+    border-radius: 50%;
+}
+#SobreMi .MyDescription{
+    line-height: 33px;
 }
