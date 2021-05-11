@@ -1,5 +1,10 @@
 :root{
     --neon: #92FF47;
+    --gray: #191919;
+    --light-gray: #8e8e8e;
+}
+.green{
+    color: var(--neon);
 }
 
 body{
@@ -9,7 +14,6 @@ body{
 
 .section-title{
     border-bottom: 4px solid var(--neon);
-    padding: 0px 20px;
     width: auto;
 }
 
@@ -44,6 +48,26 @@ body{
     width: 50%;
     border-radius: 50%;
 }
-#about .MyDescription{
-    line-height: 33px;
+#about .myDescription,
+.skill-description{
+    line-height: 160%;
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.skill-card{
+    min-width: 340px;
+    max-width: 25%;
+    border-radius: 5%;
+    background-color: var(--gray);
+    color: var(--light-gray);
+    transition: all 300ms;
+}
+.skill-card:hover{
+    color: white;
+    transform: scale(1.1,1.1);
+}
+
+.skill-icon{
+    font-size: 700%;
 }
