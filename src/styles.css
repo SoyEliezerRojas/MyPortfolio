@@ -26,10 +26,11 @@ body{
 #home h2{
     font-weight: lighter;
     text-shadow: 0px 0px 3px #ccc;
-    font-size: 90px;
+    font-size: 450%;
 }
 #home h4{
     color: var(--neon);
+    font-size: 190%;
 }
 #home img{
     width: 60%;
@@ -39,10 +40,10 @@ body{
     margin-top: 20vh;
 }
 
-#SobreMi img{
+#about img{
     width: 50%;
     border-radius: 50%;
 }
-#SobreMi .MyDescription{
+#about .MyDescription{
     line-height: 33px;
 }
