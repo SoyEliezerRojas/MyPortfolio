@@ -89,3 +89,12 @@ body{
         font-size: 500%;
     }
 }
+@media (max-width: 450px){
+    #home h2{
+        font-size: 360%;
+    }
+    .home_perfil_description {
+        margin-top: 40vh;
+    }
+
+}
