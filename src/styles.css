@@ -25,23 +25,24 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 #home h2{
-    font-weight: lighter;
-    text-shadow: 0px 0px 3px #ccc;
-    font-size: 450%;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px #ccc;
+    font-size: 600%;
 }
 #home h4{
     color: var(--neon);
     font-size: 190%;
+    text-shadow: 0px 0px 5px #63f700;
 }
 #home img{
     width: 60%;
     border-radius: 50%;
 }
 .home_perfil_description{
-    margin-top: 20vh;
+    margin-top: 40vh;
 }
 
 #about img{
@@ -70,4 +71,21 @@ body{
 
 .skill-icon{
     font-size: 700%;
+}
+@media (max-width: 1220px){
+    .home_perfil_description {
+        margin-top: 35vh;
+    }
+}
+@media (max-width: 790px){
+    
+    .skill-card{
+        min-width: 40%;
+    }
+    .skill-icon{
+        font-size: 350%;
+    }
+    #home h2{
+        font-size: 500%;
+    }
 }
