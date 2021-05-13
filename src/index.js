@@ -18,14 +18,10 @@ ScrollReveal().reveal('.section-title',{
 ScrollReveal().reveal('img',{
     reset:true,
     delay:500,
-    origin:'bottom',
-    distance:'100px'
 });
 ScrollReveal().reveal('.myDescription',{
     reset:true,
     delay:500,
-    origin:'bottom',
-    distance:'100px'
 });
 ScrollReveal().reveal('.skill-card',{
     reset:true,
