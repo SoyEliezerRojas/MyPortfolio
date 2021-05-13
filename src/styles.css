@@ -56,7 +56,8 @@ body{
     font-weight: 100;
 }
 
-.skill-card{
+.skill-card,
+.service-card{
     min-width: 340px;
     max-width: 25%;
     border-radius: 5%;
@@ -68,9 +69,17 @@ body{
     color: white;
     transform: scale(1.1,1.1);
 }
-
 .skill-icon{
     font-size: 700%;
+}
+.service-card{
+    padding-top: 2%;
+}
+.service-card .service-icon{
+    font-size: 300%;
+}
+.service-card h5{
+    color: white;
 }
 @media (max-width: 1220px){
     .home_perfil_description {
