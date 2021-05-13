@@ -93,6 +93,9 @@ body{
     #home h2{
         font-size: 360%;
     }
+    #home h4{
+        font-size: 170%;
+    }
     .home_perfil_description {
         margin-top: 40vh;
     }
