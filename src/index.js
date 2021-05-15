@@ -29,4 +29,9 @@ ScrollReveal().reveal('.skill-card',{
     origin:'bottom',
     distance:'100px'
 });
-
+ScrollReveal().reveal('.service-card',{
+    reset:true,
+    delay:500,
+    origin:'bottom',
+    distance:'100px'
+});

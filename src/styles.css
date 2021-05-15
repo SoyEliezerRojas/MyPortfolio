@@ -74,12 +74,20 @@ body{
 }
 .service-card{
     padding-top: 2%;
+    border-bottom: 4px solid var(--gray);
+    transition: all 500ms;
 }
 .service-card .service-icon{
     font-size: 300%;
 }
 .service-card h5{
     color: white;
+}
+.service-card:hover{
+    border-bottom: 4px solid var(--neon);
+}
+.service-card:hover .service-icon{
+    color: var(--neon);
 }
 @media (max-width: 1220px){
     .home_perfil_description {
