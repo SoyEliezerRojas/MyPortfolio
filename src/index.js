@@ -15,10 +15,6 @@ ScrollReveal().reveal('.section-title',{
     origin:'bottom',
     distance:'100px'
 });
-ScrollReveal().reveal('img',{
-    reset:true,
-    delay:500,
-});
 ScrollReveal().reveal('.myDescription',{
     reset:true,
     delay:500,
@@ -30,6 +26,12 @@ ScrollReveal().reveal('.skill-card',{
     distance:'100px'
 });
 ScrollReveal().reveal('.service-card',{
+    reset:true,
+    delay:500,
+    origin:'bottom',
+    distance:'100px'
+});
+ScrollReveal().reveal('.project-card',{
     reset:true,
     delay:500,
     origin:'bottom',
