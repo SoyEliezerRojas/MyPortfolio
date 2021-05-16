@@ -37,3 +37,9 @@ ScrollReveal().reveal('.project-card',{
     origin:'bottom',
     distance:'100px'
 });
+ScrollReveal().reveal('.contact-card',{
+    reset:true,
+    delay:500,
+    origin:'bottom',
+    distance:'100px'
+});

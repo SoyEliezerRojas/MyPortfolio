@@ -58,7 +58,8 @@ body{
 
 .skill-card,
 .service-card,
-.project-card{
+.project-card,
+.contact-card{
     min-width: 340px;
     max-width: 25%;
     border-radius: 5%;
@@ -105,13 +106,27 @@ body{
     margin-bottom: 0;
     margin-left: 0.5rem;
 }
+.contact-card{
+    min-height: 200px;
+    border-radius: 0px;
+    border-bottom: 3px solid var(--neon);
+}
+.contact-card .contact-icon{
+    font-size: 300%;
+}
+.contact-card a{
+    display: block;
+    height: 100%;
+    padding-top: 12%;
+    text-decoration: none;
+    color: var(--light-gray);
+}
 @media (max-width: 1220px){
     .home_perfil_description {
         margin-top: 35vh;
     }
 }
 @media (max-width: 790px){
-    
     .skill-card{
         min-width: 40%;
     }
@@ -120,6 +135,17 @@ body{
     }
     #home h2{
         font-size: 500%;
+    }
+    .contact-card{
+        min-width: 40%;
+        min-height: 0;
+        padding-bottom: 5px;
+    }
+    .contact-icon{
+        font-size: 350%;
+    }
+    .contact-description-title{
+        font-size: 100%;
     }
 }
 @media (max-width: 450px){
