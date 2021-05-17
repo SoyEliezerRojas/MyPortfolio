@@ -1,3 +1,6 @@
+
+import './styles/styles.css'
+
 ScrollReveal().reveal('#home',{
     reset:true,
     delay:200,
